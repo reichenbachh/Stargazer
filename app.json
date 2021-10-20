@@ -13,16 +13,27 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "splash": {
+        "ldpi": "./assets/splashscreens/drawable-hdpi/splash.png",
+        "mdpi": "./assets/splashscreens/drawable-mdpi/splash.png",
+        "hdpi": "./assets/splashscreens/drawable-hdpi/splash.png",
+        "xhdpi": "./assets/splashscreens/drawable-xhdpi/splash.png",
+        "xxhdpi": "./assets/splashscreens/drawable-xxhdpi/splash.png",
+        "xxxhdpi": "./assets/splashscreens/drawable-xxxhdpi/splash.png",
+        "resizeMode": "cover"
       }
     },
     "web": {
