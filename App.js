@@ -8,6 +8,7 @@ import * as Font from "expo-font";
 
 import { Provider } from "react-redux";
 import store from "./src/redux/store";
+import DetailsView from "./src/Views/DetailsView";
 
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -61,6 +62,13 @@ export default function App() {
               headerShown: false,
             }}
             initialParams={{ onLayoutRootView: onLayoutRootView }}
+          />
+          <Stack.Screen
+            name='Details'
+            component={DetailsView}
+            options={{
+              headerShown: false,
+            }}
           />
         </Stack.Navigator>
       </NavigationContainer>

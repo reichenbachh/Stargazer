@@ -22,8 +22,8 @@ const HomeHeader = () => {
 
 const style = StyleSheet.create({
   view: {
-    padding: 20,
-    flex: 1,
+    paddingHorizontal: 20,
+    paddingVertical: 5,
     flexDirection: "row",
     justifyContent: "space-between",
   },

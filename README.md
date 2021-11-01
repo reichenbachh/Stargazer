@@ -1,4 +1,4 @@
-# Caasco Airline
+# Stargazer
 
 Space information app using React Native and NASA APIs
 
